@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="center">
+        <div class="signup">
+            <div>
+                <label for="signup-email">email</label>
+                <input id="signup-email" type="email" placeholder="email">
+            </div>
+            <div>
+                <label for="signup-password">password</label>
+                <input id="signup-password" type="password" placeholder="password">
+            </div>
+            <div>
+                <label for="signup-username">username</label>
+                <input id="signup-username" type="text" placeholder="Username">
+            </div>
+            <button id="signup-btn">Sign-up</button>
+            Existing user?
+            <div id="signin_link" style="color: blue;">Sign-in</div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="signin">
+            <div>
+                <label for="signin-email">email</label>
+                <input id="signin-email" type="email" placeholder="email">
+            </div>
+            <div>
+                <label for="signin-password">password</label>
+                <input id="signin-password" type="password" placeholder="password">
+            </div>
+            <button id="signin-btn">Signin</button>
+            New user?
+            <div id="signup_link" style="color: blue;">Sign-up</div>
+        </div>
+    </div>
+
+    <div class="center">
+        <div class="todopage">
+            <div class="input_todo">
+                <input id="add_todo" type="text" placeholder="Enter todo">
+                <button id="addTodo">Add todo</button>
+            </div>
+            <div class="todos_list"></div>
+            <button id = "logout">Logout</button>
+        </div>
+    </div>
+
+</body>
+<script src="app.js"></script>
+
+</html>
